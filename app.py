@@ -22,5 +22,3 @@ def hello():
 @app.route('/test')
 def test():
   return "yes working"
-
-app.run(host='0.0.0.0', port=3000)
