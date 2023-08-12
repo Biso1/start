@@ -7,7 +7,6 @@ import os
 # token = file.read()
 load_dotenv()
 token = os.environ['token']
-print(token)
 # file.close()
 bot = chatgpt(token)
 
